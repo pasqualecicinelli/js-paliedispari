@@ -31,20 +31,26 @@ console.log(resultSomma);
 
 if (resultSomma % 2 == 0) {
 
-    console.log('L\'utente vince è pari: ' + resultSomma)
+    if (choose.toUpperCase() == 'PARI') {
+        console.log('Vince l\'utente' + choose)
+    } else {
+        console.log('Vince il Computer' + choose)
 
+    }
 
 } else {
-    console.log('Il risultato è dispari: ' + resultSomma)
+    if (choose.toUpperCase() == 'DISPARI') {
+        console.log('Vince l\'utente' + choose)
+    } else {
+        console.log('Vince il Computer' + choose)
+
+    }
 
 }
 
-/*if (choose.toUpperCase() == 'Pari') {
-    console.log('Vince l\'utente' + choose)
-} else {
-    console.log('Vince il Computer' + choose)
-    
-}*/
+//fare una funzione per il pari e dispari
+
+
 
 
 

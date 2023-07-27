@@ -22,3 +22,5 @@ Somma i due numeri
   - dalla somma avrò il resto = 0 è pari
 - ## ALTRIMENTI
   - dalla somma avrò il resto != 0 è dispari
+
+  
