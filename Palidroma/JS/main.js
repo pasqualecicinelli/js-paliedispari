@@ -1,36 +1,32 @@
+// funzione reverse
+
+function getReverse(value) {
+
+    let reverse = '';
+
+    for (let i = value.length - 1; i >= 0; i--) {
+
+        reverse += value[i];
+
+    }
+    return reverse
+}
+
 const userWorld = prompt('Inserisci una parola: ');
 
-function getReverse(value = '') {
+let reverse = getReverse(userWorld);
 
-    for (let i = value.length; i > 0; value.length--) {
-        let reverse = '';
-        reverse += value[i];
-        return reverse
-    }
 
+console.log(reverse)
+
+// paragone parole
+
+if (reverse == userWorld) {
+
+    console.log('le parole sono palindrome ');
+    console.log('utente ' + userWorld + ' palindroma ' + reverse);
+} else {
+    console.log('La parola non è palindroma');
 }
 
-let reverse2 = getReverse(userWorld);
-
-
-console.log(reverse2)
-
-/*
-
-for (let i = userWorld.length; i >= 0; i--) {
-    let reverse = '';
-    reverse += userWorld[i];
-
-    console.log(reverse);
-}
-console.log(userWorld);*/
-
-/*for (i = 0; i < reverse.length; i++){
-
-    if (reverse[i] == userWorld[i]) {
-        
-        console.log('le parole sono palindrome');
-        console.log('utente ' userWorld + 'palindroma ' + reverse);
-    }
-}*/
 
