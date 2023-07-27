@@ -21,7 +21,7 @@ console.log(reverse)
 
 // paragone parole
 
-if (reverse == userWorld) {
+if (reverse.toUpperCase() == userWorld.toUpperCase()) {
 
     console.log('le parole sono palindrome ');
     console.log('utente ' + userWorld + ' palindroma ' + reverse);
